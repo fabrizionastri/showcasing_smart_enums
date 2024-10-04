@@ -1,0 +1,12 @@
+env
+frontend
+media
+**/migrations/__pycache__/
+**/__pycache__/
+**/v2/__pycache__/
+backend.tar.gz
+commando
+*.pyc
+.env
+_docs
+.vscode/
