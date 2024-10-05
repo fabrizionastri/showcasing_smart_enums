@@ -1,0 +1,39 @@
+## Clone and rename this file to .env and update the values accordingly
+
+## --------- Testing --------------------
+
+DJANGO_TESTING=True # Set to True for testing, or simply type in the terminal "DJANGO_TESTING=False python manage.py test" in Unix, or "set DJANGO_TESTING=True && python manage.py test" in Windows
+
+## --------- For local development ----------
+
+ALLOWED_HOSTS="['127.0.0.1', 'localhost']"  # For local development
+SECRET_KEY="django-insecure-e^8b4dj+h==cau6q%^95$ww9uezcnlwuvn^_7+82(5%$#vrgp8"
+
+
+## SQLite3 for easy manual testing
+
+DB_ENGINE=django.db.backends.slite3
+DB_NAME=db.sqlite3
+
+
+## MySQL database
+
+# DB_ENGINE=django.db.backends.mysql
+# DB_NAME=flexup
+# DB_USER=admin
+# DB_PASSWORD=admin
+# DB_HOST=localhost
+# DB_PORT=3306
+
+
+
+## ----------- For remote deployment --------------
+
+# DB_ENGINE=django.db.backends.mysql
+# DB_NAME=FlexUp
+# DB_USER=RockyC
+# DB_PASSWORD=!((&!$
+# DB_HOST=remotehost.com  # Replace with actual remote host
+# DB_PORT=3306
+
+# ALLOWED_HOSTS = "['flexup.silquetech.com', 'flexup-backend.silquetech.com']"

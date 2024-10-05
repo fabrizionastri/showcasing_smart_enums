@@ -1,3 +1,4 @@
+import unittest
 from django.test import TestCase
 from decimal import Decimal as Dec
 from .enums import Period, Priority, StartDate, PrimaryAdjustment, TokenRedemption
